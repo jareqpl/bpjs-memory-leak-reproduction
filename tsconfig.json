@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "incremental": true,
+    "baseUrl": ".",
+    "jsx": "react",
+    "allowJs": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "build",
+    "noEmitOnError": true,
+    "sourceMap": true,
+    "pretty": true,
+    "alwaysStrict": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "strictBindCallApply": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "skipLibCheck": true,
+    "removeComments": false,
+    "lib": ["es6", "es2019", "esnext", "dom"],
+    "typeRoots": ["./node_modules/@types/"]
+  },
+  "exclude": ["node_modules"],
+  "compileOnSave": false,
+  "disableCompileOnSave": true
+}
